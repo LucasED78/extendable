@@ -1,6 +1,6 @@
 name: extendable
 description: A set of utilities for improve your code readability and development
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/LucasED78/extendable
 
 environment:

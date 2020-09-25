@@ -4,6 +4,13 @@ A set of utilities for improve your code readability and development.
 
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://pub.dev/packages/effective_dart) ![Build](https://github.com/lucased78/extendable/workflows/Build/badge.svg)
 
+## Topics
+
+[Overview](https://pub.dev/packages/extendable#overview)
+[Usage](#https://pub.dev/packages/extendable#usage)
+[Examples](#https://pub.dev/packages/extendable#examples)
+[Contributions](https://pub.dev/packages/extendable#contributions)
+
 ## Overview
 
 The goal of this library is offer utilities that will improve our code readability and improve
@@ -89,3 +96,5 @@ Contributions are welcomed!
 * Write tests for it.
 
 * Write documentation for it.
+
+* Make a pull request to the main branch

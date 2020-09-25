@@ -1,3 +1,10 @@
+## [0.0.3]
+
+Upgrading readme with topics
+
+* Adding topics for readme
+* Improving contributions section
+
 ## [0.0.2]
 
 Improve package metadata
