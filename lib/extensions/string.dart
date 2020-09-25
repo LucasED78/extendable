@@ -9,7 +9,7 @@ extension StringUtil on String {
       return null;
     }
 
-    return "${this[0].toUpperCase()}${this.substring(1)}";
+    return "${this[0].toUpperCase()}${substring(1)}";
   }
 
   /// Return if a email is valid or not
@@ -36,5 +36,14 @@ extension StringUtil on String {
     }
       
     return substring(0, limit);
+  }
+
+  /// Return [true] if a [String] has a ['true'] value
+  bool toBool() {
+    if (this == null) {
+      return false;
+    }
+
+    return this == 'true';
   }
 }

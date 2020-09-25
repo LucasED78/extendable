@@ -35,5 +35,17 @@ void main(){
 
       expect(string.limit(limit).length, 6);
     });
+    
+    test('return a bool from a string', (){
+      final string = 'true';
+
+      expect(string.toBool(), true);
+    });
+
+    test('return a bool with a value false from a null string', (){
+      String string;
+
+      expect(string.toBool(), false);
+    });
   });
 }
