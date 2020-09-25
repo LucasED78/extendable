@@ -2,8 +2,7 @@
 
 A set of utilities for improve your code readability and development.
 
-[![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://pub.dev/packages/effective_dart)
-
+[![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://pub.dev/packages/effective_dart)![Build](https://github.com/lucased78/extendable/workflows/Build/badge.svg)
 
 ## Overview
 
