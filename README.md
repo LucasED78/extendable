@@ -6,9 +6,9 @@ A set of utilities for improve your code readability and development.
 
 ## Topics
 
-[Overview](https://pub.dev/packages/extendable#overview)
-[Usage](#https://pub.dev/packages/extendable#usage)
-[Examples](#https://pub.dev/packages/extendable#examples)
+[Overview](https://pub.dev/packages/extendable#overview)\
+[Usage](#https://pub.dev/packages/extendable#usage)\
+[Examples](#https://pub.dev/packages/extendable#examples)\
 [Contributions](https://pub.dev/packages/extendable#contributions)
 
 ## Overview
