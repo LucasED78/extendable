@@ -15,6 +15,18 @@ void main() {
       assert(value.isNegative);
     });
 
+    test('return true if a double value is positive', (){
+      final value = 1.5;
+
+      assert(value.isPositive);
+    });
+
+    test('return true if a double value is negative', (){
+      final value = -1.5;
+
+      assert(value.isNegative);
+    });
+
     test('return true if a value is greater than other', (){
       final value = 2;
       final number = 1;
