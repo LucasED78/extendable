@@ -47,5 +47,27 @@ void main() {
 
       expect(string.toBool(), false);
     });
+
+    test('return a shortened string with trailing dots', () {
+      final bigString =
+          "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.";
+
+      final shortenedString = bigString.maxLength(10);
+      assert(shortenedString == "Cras ju...");
+      expect(shortenedString.contains("..."), true);
+      expect(shortenedString.length, 10);
+    });
+    test('return a shortened string without trailing dots', () {
+      final bigString =
+          "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.";
+
+      final shortenedString = bigString.maxLength(
+        10,
+        withTrailingDots: false,
+      );
+      assert(shortenedString == "Cras justo");
+      expect(shortenedString.contains("..."), false);
+      expect(shortenedString.length, 10);
+    });
   });
 }
