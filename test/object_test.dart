@@ -15,9 +15,13 @@ void main() {
       assert(list.isNotNull);
     });
 
-    test('return true if a list is empty or null', () {
-      final list = [];
+    test('return true if a list null', () {
+      List list;
+      assert(list.isEmptyOrNull);
+    });
 
+    test('return true if a list is empty', () {
+      final list = [];
       assert(list.isEmptyOrNull);
     });
 
