@@ -39,6 +39,25 @@ extension StringUtil on String {
     return substring(0, limit);
   }
 
+  /// Limit a string based on [maxLength]
+  ///
+  /// Use the [withTrailingDots] property to display ( ... )
+  /// after the shortened string (defaults to true)
+  String maxLength(
+    int maxLength, {
+    bool withTrailingDots = true,
+  }) {
+    if (length <= maxLength) return this;
+    String result = substring(
+      0,
+      withTrailingDots ? maxLength - 3 : maxLength,
+    );
+    if (withTrailingDots) {
+      result += "...";
+    }
+    return result;
+  }
+
   /// Return [true] if a [String] has a ['true'] value
   bool toBool() {
     if (this == null) {

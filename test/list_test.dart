@@ -21,7 +21,7 @@ void main() {
       assert(list.firstOrNull == 'Test');
     });
 
-    test('return first item if a list is not null', () {
+    test('return last item if a list is not null', () {
       final list = ['Test', 'Tset'];
 
       assert(list.lastOrNull == 'Tset');
